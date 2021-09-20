@@ -3,16 +3,21 @@ Vending Machine API
 
 Installation Steps:
 
-git clone <repo>
-cd <repo>
-pip install virtualenv (if you don't already have virtualenv installed)
-virtualenv venv to create your new environment (called 'venv' here)
-source venv/bin/activate to enter the virtual environment
-pip install -r requirements.txt
+1. git clone <repo>
+  
+2. cd <repo>
+  
+3. pip install virtualenv (if you don't already have virtualenv installed)
+  
+4. virtualenv venv to create your new environment (called 'venv' here)
+  
+5. source venv/bin/activate to enter the virtual environment
+  
+6. pip install -r requirements.txt
   
 Running the server from IDE:
 
-python manage.py runserver
+1. python manage.py runserver
   
 
 Exposed Endpoints:
