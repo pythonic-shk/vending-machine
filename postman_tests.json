@@ -1,0 +1,3993 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+			"uid": "0-672598b1-d7cf-4255-91d6-fcd19f8a3872",
+			"name": "vending_machine",
+			"description": null,
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "3ed9fc04-b1be-49c8-9ee7-126c312fb80f",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "b67ffdef-d710-4c9e-854d-d33172d198e4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"variables": [],
+			"order": [],
+			"folders_order": [
+				"a11ce253-5589-4283-9bfb-165cce6c2617",
+				"df3098b2-aa7d-4314-9a45-c7d5617442d4",
+				"35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+				"2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+				"799a1f5a-953d-4117-828f-b88bc4001591",
+				"2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+				"3235adac-7e83-4f39-b3e7-528b0dd558e0"
+			],
+			"protocolProfileBehavior": {},
+			"createdAt": "2021-09-20T07:57:54.222Z",
+			"folders": [
+				{
+					"id": "3235adac-7e83-4f39-b3e7-528b0dd558e0",
+					"uid": "0-3235adac-7e83-4f39-b3e7-528b0dd558e0",
+					"name": "Access with deleted User",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folder": null,
+					"order": [
+						"862ab189-aebf-4f6b-88ba-e553b80724e5",
+						"e18fcdfb-e88d-414d-875d-f436c8b61e44",
+						"c262f37e-2259-448c-acf1-a69110f04823",
+						"1590e97f-ee19-4783-ae8b-b91bd88a7705"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-09-20T13:09:17.372Z",
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folderId": "3235adac-7e83-4f39-b3e7-528b0dd558e0"
+				},
+				{
+					"id": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"uid": "0-a11ce253-5589-4283-9bfb-165cce6c2617",
+					"name": "Anonymous User",
+					"description": null,
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "92657f45-658c-4bec-bc41-a190f899e56c",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "ad0a34d2-704a-471f-856b-b15dc30ca1f0",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folder": null,
+					"order": [
+						"9b0789d4-e708-4ea1-a5be-5f83014bae1b",
+						"23eb1186-e066-4635-8535-c03591ddfb0a",
+						"ffa577ea-b2d3-4225-a07a-c8cc0a424cfa",
+						"c31ee291-dd02-476c-8c6c-793a77551f95",
+						"9450d4d8-6c7c-4c01-a538-b130f01722e6",
+						"ffd0a3c1-c7a5-4b54-81ef-c534e86da72f",
+						"634a5f8d-5d6e-4962-a2f6-5868b94458a7",
+						"785408b2-9cbd-4056-8d9a-56d94c159313",
+						"bf742842-6cde-4ae0-ad85-1f5c39b7a7d8",
+						"3f9c70be-b7b6-4ce7-a18e-690e7a8050d8",
+						"bad8fd05-55a7-4090-ab9c-5fbba16d44e0",
+						"a637134a-ca32-4543-a2b3-db13f064ab12",
+						"fc56e568-5b68-48ad-8411-5214fca6416e"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-09-20T12:00:39.842Z",
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folderId": "a11ce253-5589-4283-9bfb-165cce6c2617"
+				},
+				{
+					"id": "799a1f5a-953d-4117-828f-b88bc4001591",
+					"uid": "0-799a1f5a-953d-4117-828f-b88bc4001591",
+					"name": "Buy",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folder": null,
+					"order": [
+						"f42fbce9-b23b-4328-a971-26306849cd50",
+						"bef56a53-6119-4673-ad47-39d790676941",
+						"76c88a28-82d0-48d0-8736-ab8eab76b905",
+						"e57532cf-86b8-4b28-9d7c-368aee2d4657",
+						"4ed388ed-ba17-492e-8357-182aa57028ee",
+						"2e88d08d-ea46-4620-8f11-61c0f14dc587"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-09-21T15:04:41.719Z",
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folderId": "799a1f5a-953d-4117-828f-b88bc4001591"
+				},
+				{
+					"id": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"uid": "0-35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"name": "buyer",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folder": null,
+					"order": [
+						"0aa9574c-943e-4f67-aaee-8287fe25b5be",
+						"70c0de0d-de3d-47d4-ae9e-dcc366f0fd44",
+						"383a4f95-84a9-42da-ae01-d0dec3e7421e",
+						"a0b294c5-14c4-4b7c-936e-c4c285d65768",
+						"6790e845-11f9-46b8-9eb5-54222e16da26",
+						"146baf5c-4af6-4249-bced-f3d87cb71e97",
+						"1cec22c4-5820-4c6e-8840-9d825f018a39",
+						"a2341736-d573-45c1-be18-ccc356e89b12",
+						"41d3fbcc-d235-454b-865f-91d6aea1da24",
+						"e4d9843a-b6d5-4d11-a997-bc961e145f2a",
+						"a2fb712e-e2bd-43c7-8254-98630a97c864"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-09-20T14:18:50.241Z",
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folderId": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3"
+				},
+				{
+					"id": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"uid": "0-2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"name": "delete user",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folder": null,
+					"order": [
+						"d7a73a15-3d96-4d74-b71e-21fd86a1346c",
+						"90f6b07d-c83c-4960-882b-514cf70cc231",
+						"bbb94bac-6b5d-442a-afca-86d6449fbab2",
+						"c64771e1-64cc-4a27-988a-24eef1b4e64f",
+						"71386188-fb9b-4452-aaaa-49c3dbd139ba",
+						"ddd8e45a-d1b2-4b63-9d3a-19763d11cb6e"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-09-20T13:06:21.714Z",
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folderId": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea"
+				},
+				{
+					"id": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"uid": "0-2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"name": "products",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folder": null,
+					"order": [
+						"ed0c3e9e-0c33-405d-b264-9b0b8458549d",
+						"1672c69e-dabf-4ce7-a064-8f18bfe68ffd",
+						"064f1259-5e96-4209-98a2-772ce8952caf",
+						"179d466b-71ff-4114-9188-1660b13fb889",
+						"dca047c0-a685-4b1a-ab3b-752060b13d61",
+						"d326dd54-fc68-4c55-8d77-8e3bb21657d9",
+						"8c716774-68b3-44b5-bb9e-eceeb7637558",
+						"fe80de46-5c40-4e93-8307-e52c82d0ce10",
+						"17c9a7ac-a90e-42c8-87d8-71f14d4bd91d",
+						"2e7c00bf-d929-47be-9679-d6027e714be3",
+						"ac22252c-e3a7-4ff9-8ee4-ebd8f98f1d98",
+						"8afcd44d-15b5-41bb-81d8-951f091ce3ed",
+						"6af94333-31b5-44f0-8095-940b6aabb55c"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-09-21T13:10:54.677Z",
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folderId": "2c6566d7-9f1e-4e89-8670-642a54ec76e9"
+				},
+				{
+					"id": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"uid": "0-df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"name": "seller",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folder": null,
+					"order": [
+						"a0b657cf-52ff-4e7f-9abc-84aaaa5575c6",
+						"9f83dcf7-8f1d-42fb-8328-cade8d4dfdcf",
+						"87b75781-80e5-45da-87e6-fb62d40f26fb",
+						"0acf7563-18e7-45d3-b044-f22f102afde3",
+						"1e5e7fc4-8d47-4cc3-a07e-f36d7b6d2604",
+						"fdc5a1f3-afb1-4d40-8ca9-be2abf71c037",
+						"b6cb2897-94f1-44c7-a21b-12dab8fc07af",
+						"6e9c2137-de8a-481d-8094-7a3f4587a9f4"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-09-20T14:39:50.617Z",
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"folderId": "df3098b2-aa7d-4314-9a45-c7d5617442d4"
+				}
+			],
+			"requests": [
+				{
+					"id": "064f1259-5e96-4209-98a2-772ce8952caf",
+					"uid": "0-064f1259-5e96-4209-98a2-772ce8952caf",
+					"name": "Add product with seller 1",
+					"url": "{{host}}/products/create",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "kindle",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "70",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "amountAvailable",
+							"value": "32",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "72ce5a04-b461-4ca6-a3b0-e5ddb78367f0",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "0aa9574c-943e-4f67-aaee-8287fe25b5be",
+					"uid": "0-0aa9574c-943e-4f67-aaee-8287fe25b5be",
+					"name": "deposit valid amount 100 buyer1",
+					"url": "{{host}}/users/deposit",
+					"description": null,
+					"data": [
+						{
+							"key": "amount",
+							"value": "100",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "84251ee2-52e4-4161-88a4-d7f5e2899624",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"Amount 100 for buyer_1 Deposited successfully\");\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.test(\"Body matches string\", function () {\r\n    pm.expect(pm.response.text()).to.include(\"Amount 100 for buyer_1 Deposited successfully\");\r\n});\r\n",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "0acf7563-18e7-45d3-b044-f22f102afde3",
+					"uid": "0-0acf7563-18e7-45d3-b044-f22f102afde3",
+					"name": "Change password seller2 old passowrd wrong",
+					"url": "{{host}}/users/changepwd",
+					"description": null,
+					"data": [
+						{
+							"key": "old_password",
+							"value": "{{seller1_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "new_password",
+							"value": "seller_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "confirm_password",
+							"value": "seller_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8f09dc4a-9711-48b3-8391-f637544114e4",
+								"exec": [
+									"pm.test(\"Unauthorized\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Unauthorized\", function () {\r\n    pm.response.to.have.status(401);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "146baf5c-4af6-4249-bced-f3d87cb71e97",
+					"uid": "0-146baf5c-4af6-4249-bced-f3d87cb71e97",
+					"name": "Change passowrd buyer2 same old and new",
+					"url": "{{host}}/users/changepwd",
+					"description": null,
+					"data": [
+						{
+							"key": "old_password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "new_password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "confirm_password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b3cb53eb-46d8-4fc1-a748-b59d12435899",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "1590e97f-ee19-4783-ae8b-b91bd88a7705",
+					"uid": "0-1590e97f-ee19-4783-ae8b-b91bd88a7705",
+					"name": "deleting buyer3",
+					"url": "{{host}}/users/delete",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer3_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "cfcc6d51-806f-4295-949b-ac4b3780f741",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.environment.unset(\"buyer3_token\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "3235adac-7e83-4f39-b3e7-528b0dd558e0",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.environment.unset(\"buyer3_token\");",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer3_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "1672c69e-dabf-4ce7-a064-8f18bfe68ffd",
+					"uid": "0-1672c69e-dabf-4ce7-a064-8f18bfe68ffd",
+					"name": "see product details with buyer 1",
+					"url": "{{host}}/products/show",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4720d985-404e-43ab-8af3-1ff6c5f3f145",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "179d466b-71ff-4114-9188-1660b13fb889",
+					"uid": "0-179d466b-71ff-4114-9188-1660b13fb889",
+					"name": "see product with seller 2",
+					"url": "{{host}}/products/show",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "494d96d6-8567-45b4-9825-b3835966ad2c",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "17c9a7ac-a90e-42c8-87d8-71f14d4bd91d",
+					"uid": "0-17c9a7ac-a90e-42c8-87d8-71f14d4bd91d",
+					"name": "Update seller 2 product with seller 1",
+					"url": "{{host}}/products/update",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "10",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "amountAvailable",
+							"value": "5",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "40b24be7-3865-4b02-a1e3-10050a50010a",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "1cec22c4-5820-4c6e-8840-9d825f018a39",
+					"uid": "0-1cec22c4-5820-4c6e-8840-9d825f018a39",
+					"name": "Change password buyer2 different new and confirm",
+					"url": "{{host}}/users/changepwd",
+					"description": null,
+					"data": [
+						{
+							"key": "old_password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "new_password",
+							"value": "buyer_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "confirm_password",
+							"value": "buyer_old",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7fbfaac3-4f61-4e12-80d5-381f5d500dfd",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "1e5e7fc4-8d47-4cc3-a07e-f36d7b6d2604",
+					"uid": "0-1e5e7fc4-8d47-4cc3-a07e-f36d7b6d2604",
+					"name": "Change password seller2 success",
+					"url": "{{host}}/users/changepwd",
+					"description": null,
+					"data": [
+						{
+							"key": "old_password",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "new_password",
+							"value": "seller2_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "confirm_password",
+							"value": "seller2_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "2db11e21-8527-4775-808d-60bc5b45dbe4",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.environment.set(\"seller2_p\", \"seller2_new\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.environment.set(\"seller2_p\", \"seller2_new\");",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "23eb1186-e066-4635-8535-c03591ddfb0a",
+					"uid": "0-23eb1186-e066-4635-8535-c03591ddfb0a",
+					"name": "getting buyer1 access token",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{buyer1_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{buyer1_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f19f1a30-14d8-4a96-a2b9-43f43ab4ae19",
+								"exec": [
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"buyer1_token\", data.token);\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "var data = JSON.parse(responseBody);\r\npm.environment.set(\"buyer1_token\", data.token);\r\n\r\npm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "2e7c00bf-d929-47be-9679-d6027e714be3",
+					"uid": "0-2e7c00bf-d929-47be-9679-d6027e714be3",
+					"name": "Update Product with  buyer 1",
+					"url": "{{host}}/products/update",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "50",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "amountAvailable",
+							"value": "18",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3a326ac4-1d82-4f60-ae3d-70e7a8b238ea",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "2e88d08d-ea46-4620-8f11-61c0f14dc587",
+					"uid": "0-2e88d08d-ea46-4620-8f11-61c0f14dc587",
+					"name": "check product available quantity after purchase",
+					"url": "{{host}}/products/show",
+					"description": null,
+					"data": [],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "6a7de256-3814-4480-924e-169f08070c5f",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"count product quantity\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data[0].amountAvailable).to.eql(19);\r",
+									"});\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "799a1f5a-953d-4117-828f-b88bc4001591",
+					"responses_order": [],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.test(\"count product quantity\", function () {\r\n    var jsonData = pm.response.json();\r\n    pm.expect(jsonData.data[0].amountAvailable).to.eql(19);\r\n});\r\n\r\n\r\n",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "383a4f95-84a9-42da-ae01-d0dec3e7421e",
+					"uid": "0-383a4f95-84a9-42da-ae01-d0dec3e7421e",
+					"name": "deposit valid another 50 buyer2",
+					"url": "{{host}}/users/deposit",
+					"description": null,
+					"data": [
+						{
+							"key": "amount",
+							"value": "50",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8263309e-d861-40ff-8482-fb9068cbde84",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"Amount 50 for buyer_2 Deposited successfully\");\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.test(\"Body matches string\", function () {\r\n    pm.expect(pm.response.text()).to.include(\"Amount 50 for buyer_2 Deposited successfully\");\r\n});\r\n",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "3f9c70be-b7b6-4ce7-a18e-690e7a8050d8",
+					"uid": "0-3f9c70be-b7b6-4ce7-a18e-690e7a8050d8",
+					"name": "register without password",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{invalidrole_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{seller1_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "eb3d1a28-354d-4859-b04c-2c2377795be3",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "41d3fbcc-d235-454b-865f-91d6aea1da24",
+					"uid": "0-41d3fbcc-d235-454b-865f-91d6aea1da24",
+					"name": "change password buyer2 success",
+					"url": "{{host}}/users/changepwd",
+					"description": null,
+					"data": [
+						{
+							"key": "old_password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "new_password",
+							"value": "buyer2_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "confirm_password",
+							"value": "buyer2_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f1cb1a81-d5cc-422e-a351-cbef293dfb59",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.environment.set(\"buyer2_p\", \"buyer2_new\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.environment.set(\"buyer2_p\", \"buyer2_new\");",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "4ed388ed-ba17-492e-8357-182aa57028ee",
+					"uid": "0-4ed388ed-ba17-492e-8357-182aa57028ee",
+					"name": "Buy product with buyer 2 success",
+					"url": "{{host}}/products/buy",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "speaker",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "quantity",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "320141a5-0d16-4c45-82ba-4e614140581f",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"count fifties\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.deposit.fifties).to.eql(0);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"count twenties\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data.deposit.twenties).to.eql(2);\r",
+									"});\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "799a1f5a-953d-4117-828f-b88bc4001591",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.test(\"count fifties\", function () {\r\n    var jsonData = pm.response.json();\r\n    pm.expect(jsonData.data.deposit.fifties).to.eql(0);\r\n});\r\n\r\n\r\npm.test(\"count twenties\", function () {\r\n    var jsonData = pm.response.json();\r\n    pm.expect(jsonData.data.deposit.twenties).to.eql(2);\r\n});\r\n\r\n\r\n",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "634a5f8d-5d6e-4962-a2f6-5868b94458a7",
+					"uid": "0-634a5f8d-5d6e-4962-a2f6-5868b94458a7",
+					"name": "register seller2",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{seller2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{seller2_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "5bf151e7-f926-4503-935b-068a3d53d07e",
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Successful POST request\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r\n});\r\n",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "6790e845-11f9-46b8-9eb5-54222e16da26",
+					"uid": "0-6790e845-11f9-46b8-9eb5-54222e16da26",
+					"name": "get buyer 1 account details",
+					"url": "{{host}}/users/me",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b94f0598-f96e-4bf6-a794-f7451827bff6",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"count hundreds\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data[0].deposit.hundreds).to.eql(1);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"count total\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.data[0].deposit.total).to.eql(100);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.test(\"count hundreds\", function () {\r\n    var jsonData = pm.response.json();\r\n    pm.expect(jsonData.data[0].deposit.hundreds).to.eql(1);\r\n});\r\n\r\npm.test(\"count total\", function () {\r\n    var jsonData = pm.response.json();\r\n    pm.expect(jsonData.data[0].deposit.total).to.eql(100);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "6af94333-31b5-44f0-8095-940b6aabb55c",
+					"uid": "0-6af94333-31b5-44f0-8095-940b6aabb55c",
+					"name": "Delete seller2 product by seller 2",
+					"url": "{{host}}/products/delete",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "6779b80b-217e-4a25-b7ac-24409e359bed",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "6e9c2137-de8a-481d-8094-7a3f4587a9f4",
+					"uid": "0-6e9c2137-de8a-481d-8094-7a3f4587a9f4",
+					"name": "seller 1 reset",
+					"url": "{{host}}/users/reset",
+					"description": null,
+					"data": [],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "ba114484-0a02-41d6-a10b-fc30ba6be076",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});\r",
+									"\r",
+									"console.log(pm.response)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});\r\n\r\nconsole.log(pm.response)",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "70c0de0d-de3d-47d4-ae9e-dcc366f0fd44",
+					"uid": "0-70c0de0d-de3d-47d4-ae9e-dcc366f0fd44",
+					"name": "deposit valid amount 50 buyer2",
+					"url": "{{host}}/users/deposit",
+					"description": null,
+					"data": [
+						{
+							"key": "amount",
+							"value": "50",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c092cb1c-e410-4df7-aa72-583fde043bc2",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"Amount 50 for buyer_2 Deposited successfully\");\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\npm.test(\"Body matches string\", function () {\r\n    pm.expect(pm.response.text()).to.include(\"Amount 50 for buyer_2 Deposited successfully\");\r\n});\r\n",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "71386188-fb9b-4452-aaaa-49c3dbd139ba",
+					"uid": "0-71386188-fb9b-4452-aaaa-49c3dbd139ba",
+					"name": "deleting seller2",
+					"url": "{{host}}/users/delete",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "37547c17-5959-44ed-8460-559a5f7aa84c",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.environment.unset(\"seller2_token\");\r",
+									"pm.environment.set(\"seller2_p\", \"seller_2\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.environment.unset(\"seller2_token\");\r\npm.environment.set(\"seller2_p\", \"seller_2\")",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "76c88a28-82d0-48d0-8736-ab8eab76b905",
+					"uid": "0-76c88a28-82d0-48d0-8736-ab8eab76b905",
+					"name": "Buy product with buyer 2 invalid quantity",
+					"url": "{{host}}/products/buy",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "speaker",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "quantity",
+							"value": "0",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e5f28121-b629-49b4-b60c-892c37f4013d",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "799a1f5a-953d-4117-828f-b88bc4001591",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "785408b2-9cbd-4056-8d9a-56d94c159313",
+					"uid": "0-785408b2-9cbd-4056-8d9a-56d94c159313",
+					"name": "request seller2 access token",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{seller2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": ""
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "9b94790c-8f61-4b59-adc2-3673e2d9bcfc",
+								"exec": [
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"seller2_token\", data.token);\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "var data = JSON.parse(responseBody);\r\npm.environment.set(\"seller2_token\", data.token);\r\n\r\npm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": ""
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "862ab189-aebf-4f6b-88ba-e553b80724e5",
+					"uid": "0-862ab189-aebf-4f6b-88ba-e553b80724e5",
+					"name": "Show Product details with deleted user buyer1 token",
+					"url": "{{host}}/products/show",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "52bf4854-061b-44d6-9d5b-8cff5d7248b1",
+								"exec": [
+									"pm.test(\"Unauthorized\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "3235adac-7e83-4f39-b3e7-528b0dd558e0",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Unauthorized\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "87b75781-80e5-45da-87e6-fb62d40f26fb",
+					"uid": "0-87b75781-80e5-45da-87e6-fb62d40f26fb",
+					"name": "change passowrd seller 2 no confirm password",
+					"url": "{{host}}/users/changepwd",
+					"description": null,
+					"data": [
+						{
+							"key": "old_password",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "new_password",
+							"value": "seller_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e0cc9b36-6609-46be-af05-378936a4c74f",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "8afcd44d-15b5-41bb-81d8-951f091ce3ed",
+					"uid": "0-8afcd44d-15b5-41bb-81d8-951f091ce3ed",
+					"name": "Delete seller2 product by buyer1",
+					"url": "{{host}}/products/delete",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "514f73d0-a199-4e65-8263-6618abcaac46",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "8c716774-68b3-44b5-bb9e-eceeb7637558",
+					"uid": "0-8c716774-68b3-44b5-bb9e-eceeb7637558",
+					"name": "Add Product with correct details seller2",
+					"url": "{{host}}/products/create",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "30",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "amountAvailable",
+							"value": "20",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "ea394787-485f-4c8c-87e2-29fecc8d1e1d",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "90f6b07d-c83c-4960-882b-514cf70cc231",
+					"uid": "0-90f6b07d-c83c-4960-882b-514cf70cc231",
+					"name": "deleting buyer1",
+					"url": "{{host}}/users/delete",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "258a8504-c47c-4933-a16b-cc6489500b2b",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.environment.unset(\"buyer1_token\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.environment.unset(\"buyer1_token\");",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "9450d4d8-6c7c-4c01-a538-b130f01722e6",
+					"uid": "0-9450d4d8-6c7c-4c01-a538-b130f01722e6",
+					"name": "register seller1",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{seller1_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{seller1_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{seller1_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "9a618433-a5ff-46e8-b366-4d68eafc5f4b",
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Successful POST request\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r\n});\r\n",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "9b0789d4-e708-4ea1-a5be-5f83014bae1b",
+					"uid": "0-9b0789d4-e708-4ea1-a5be-5f83014bae1b",
+					"name": "register buyer1",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{buyer1_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{buyer1_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{buyer1_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "11a4bff4-59ab-4f30-9d4c-59ecc048bd6b",
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Successful POST request\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r\n});\r\n",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "9f83dcf7-8f1d-42fb-8328-cade8d4dfdcf",
+					"uid": "0-9f83dcf7-8f1d-42fb-8328-cade8d4dfdcf",
+					"name": "get seller2 account details",
+					"url": "{{host}}/users/me",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "9ced8810-716c-4145-8e82-b80ce2458767",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test('does not have deposit total', function() {\r",
+									"    var jsonData = pm.response.json();\r",
+									"  pm.expect(jsonData).to.not.have.property('data[0].total');\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.test('does not have deposit total', function() {\r\n    var jsonData = pm.response.json();\r\n  pm.expect(jsonData).to.not.have.property('data[0].total');\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "a0b294c5-14c4-4b7c-936e-c4c285d65768",
+					"uid": "0-a0b294c5-14c4-4b7c-936e-c4c285d65768",
+					"name": "deposit invalid amount 30 buyer 1",
+					"url": "{{host}}/users/deposit",
+					"description": null,
+					"data": [
+						{
+							"key": "amount",
+							"value": "30",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "81083e9c-57dc-486c-b271-4c6dfeb43d5b",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "a0b657cf-52ff-4e7f-9abc-84aaaa5575c6",
+					"uid": "0-a0b657cf-52ff-4e7f-9abc-84aaaa5575c6",
+					"name": "deposit for seller1",
+					"url": "{{host}}/users/deposit",
+					"description": null,
+					"data": [
+						{
+							"key": "amount",
+							"value": "100",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e796ed94-7572-4b6a-83e8-c85662ee1dbc",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "a2341736-d573-45c1-be18-ccc356e89b12",
+					"uid": "0-a2341736-d573-45c1-be18-ccc356e89b12",
+					"name": "Change password without token",
+					"url": "{{host}}/users/changepwd",
+					"description": null,
+					"data": [
+						{
+							"key": "old_password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "new_password",
+							"value": "buyer2_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "confirm_password",
+							"value": "buyer2_new",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "00c3f67f-154c-4907-b03c-4f29fe4d569c",
+								"exec": [
+									"pm.test(\"Unauthorized\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Unauthorized\", function () {\r\n    pm.response.to.have.status(401);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "a2fb712e-e2bd-43c7-8254-98630a97c864",
+					"uid": "0-a2fb712e-e2bd-43c7-8254-98630a97c864",
+					"name": "buyer 1 reset",
+					"url": "{{host}}/users/reset",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7c693277-0795-4fca-b1e6-02c634b1e2f6",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "a637134a-ca32-4543-a2b3-db13f064ab12",
+					"uid": "0-a637134a-ca32-4543-a2b3-db13f064ab12",
+					"name": "request access token with auth token",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{invalidrole_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{invalidrole_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e42958ad-e9ea-4565-97f5-7638c00963da",
+								"exec": [
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"invalid_token\", data.token);\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "var data = JSON.parse(responseBody);\r\npm.environment.set(\"invalid_token\", data.token);\r\n\r\npm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "ac22252c-e3a7-4ff9-8ee4-ebd8f98f1d98",
+					"uid": "0-ac22252c-e3a7-4ff9-8ee4-ebd8f98f1d98",
+					"name": "Delete seller2 product by seller 1",
+					"url": "{{host}}/products/delete",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "738b94ee-f239-47c7-9c15-3d79c865ea73",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "b6cb2897-94f1-44c7-a21b-12dab8fc07af",
+					"uid": "0-b6cb2897-94f1-44c7-a21b-12dab8fc07af",
+					"name": "request new token for change password seller2",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{seller2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "434a56c5-2814-4c16-a6e9-3abc9d8bf03b",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"seller2_token\", data.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\nvar data = JSON.parse(responseBody);\r\npm.environment.set(\"seller2_token\", data.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "bad8fd05-55a7-4090-ab9c-5fbba16d44e0",
+					"uid": "0-bad8fd05-55a7-4090-ab9c-5fbba16d44e0",
+					"name": "register with authenticated user",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{invalidrole_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{invalidrole_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{seller2_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3de8981f-e4de-40c2-8c4d-d6dd733c17f2",
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Successful POST request\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r\n});\r\n",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "bbb94bac-6b5d-442a-afca-86d6449fbab2",
+					"uid": "0-bbb94bac-6b5d-442a-afca-86d6449fbab2",
+					"name": "deleting buyer2",
+					"url": "{{host}}/users/delete",
+					"description": null,
+					"data": [
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b1641687-159a-4e3b-9b6c-479929811c7e",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.environment.unset(\"buyer2_token\");\r",
+									"pm.environment.set(\"buyer2_p\", \"buyer_2\")"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.environment.unset(\"buyer2_token\");\r\npm.environment.set(\"buyer2_p\", \"buyer_2\")",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "bef56a53-6119-4673-ad47-39d790676941",
+					"uid": "0-bef56a53-6119-4673-ad47-39d790676941",
+					"name": "Buy product with buyer 2 invalid entry",
+					"url": "{{host}}/products/buy",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "phones",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "quantity",
+							"value": "0",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "5b2e0534-3352-48d7-9f62-104188bf5b58",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "799a1f5a-953d-4117-828f-b88bc4001591",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "bf742842-6cde-4ae0-ad85-1f5c39b7a7d8",
+					"uid": "0-bf742842-6cde-4ae0-ad85-1f5c39b7a7d8",
+					"name": "register invalid role",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{invalidrole_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{invalidrole_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{invalidrole_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c5bf6597-5cb2-483c-b509-8478b41d340c",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "c262f37e-2259-448c-acf1-a69110f04823",
+					"uid": "0-c262f37e-2259-448c-acf1-a69110f04823",
+					"name": "request buyer3 access token",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{buyer3_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{buyer3_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "6c98865e-a607-45f3-a5dc-b504ae4e4793",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"buyer3_token\", data.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "3235adac-7e83-4f39-b3e7-528b0dd558e0",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\nvar data = JSON.parse(responseBody);\r\npm.environment.set(\"buyer3_token\", data.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "c31ee291-dd02-476c-8c6c-793a77551f95",
+					"uid": "0-c31ee291-dd02-476c-8c6c-793a77551f95",
+					"name": "getting buyer2 access token",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{buyer2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3de27b7b-4297-40f3-a676-3941f0a21035",
+								"exec": [
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"buyer2_token\", data.token);\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "var data = JSON.parse(responseBody);\r\npm.environment.set(\"buyer2_token\", data.token);\r\n\r\npm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "c64771e1-64cc-4a27-988a-24eef1b4e64f",
+					"uid": "0-c64771e1-64cc-4a27-988a-24eef1b4e64f",
+					"name": "deleting seller1",
+					"url": "{{host}}/users/delete",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c6b673ff-9eac-4dd8-8da7-a2fcc6533604",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.environment.unset(\"seller1_token\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.environment.unset(\"seller1_token\");",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "d326dd54-fc68-4c55-8d77-8e3bb21657d9",
+					"uid": "0-d326dd54-fc68-4c55-8d77-8e3bb21657d9",
+					"name": "Add Product with insufficient details seller2",
+					"url": "{{host}}/products/create",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "30",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1f97c92a-1658-465a-bea2-fa2508834397",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "d7a73a15-3d96-4d74-b71e-21fd86a1346c",
+					"uid": "0-d7a73a15-3d96-4d74-b71e-21fd86a1346c",
+					"name": "deleting without token",
+					"url": "{{host}}/users/delete",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e687caba-385b-4448-aade-becb0e1ae3cd",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(401);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(401);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "dca047c0-a685-4b1a-ab3b-752060b13d61",
+					"uid": "0-dca047c0-a685-4b1a-ab3b-752060b13d61",
+					"name": "Add product with buyer 1",
+					"url": "{{host}}/products/create",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "Router",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "80",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "amountAvailable",
+							"value": "10",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "cd3bb6bf-97c1-4fa7-8eb3-d4d3296d9020",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "ddd8e45a-d1b2-4b63-9d3a-19763d11cb6e",
+					"uid": "0-ddd8e45a-d1b2-4b63-9d3a-19763d11cb6e",
+					"name": "deleting invalid user",
+					"url": "{{host}}/users/delete",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{invalid_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "26a2092c-73d0-4521-b41b-4ff08f9595fa",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.environment.unset(\"invalid_token\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2bdb8cd2-7249-40f8-a18b-cbd2119c29ea",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\npm.environment.unset(\"invalid_token\");",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{invalid_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "e18fcdfb-e88d-414d-875d-f436c8b61e44",
+					"uid": "0-e18fcdfb-e88d-414d-875d-f436c8b61e44",
+					"name": "register with deleted user token",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{buyer3_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{buyer3_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{buyer3_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "970b6c01-cd03-4303-8b09-a1f4ea5a3893",
+								"exec": [
+									"pm.environment.unset(\"buyer1_token\");\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "3235adac-7e83-4f39-b3e7-528b0dd558e0",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.environment.unset(\"buyer1_token\");\r\npm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "e4d9843a-b6d5-4d11-a997-bc961e145f2a",
+					"uid": "0-e4d9843a-b6d5-4d11-a997-bc961e145f2a",
+					"name": "request new access token buyer2",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{buyer2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "78c88d72-9d72-4137-80db-5f797082fd37",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"buyer2_token\", data.token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "35aa93c5-f0ed-40ed-b585-e031b7ff6ee3",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\nvar data = JSON.parse(responseBody);\r\npm.environment.set(\"buyer2_token\", data.token);",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "e57532cf-86b8-4b28-9d7c-368aee2d4657",
+					"uid": "0-e57532cf-86b8-4b28-9d7c-368aee2d4657",
+					"name": "Buy product with buyer 2 valid details insufficient funds Copy",
+					"url": "{{host}}/products/buy",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "speaker",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "quantity",
+							"value": "5",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "sellerId",
+							"value": "{{seller2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{buyer2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "32e82a3d-654b-4b8b-a365-b7b5990c2ca2",
+								"exec": [
+									"pm.test(\"Bad Request\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "799a1f5a-953d-4117-828f-b88bc4001591",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Bad Request\", function () {\r\n    pm.response.to.have.status(400);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{buyer2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "ed0c3e9e-0c33-405d-b264-9b0b8458549d",
+					"uid": "0-ed0c3e9e-0c33-405d-b264-9b0b8458549d",
+					"name": "Add Product with seller2",
+					"url": "{{host}}/products/create",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "speaker",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "60",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "amountAvailable",
+							"value": "20",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f58e436c-95f5-4feb-a071-2bfe9606da62",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "f42fbce9-b23b-4328-a971-26306849cd50",
+					"uid": "0-f42fbce9-b23b-4328-a971-26306849cd50",
+					"name": "Buy product with seller 1",
+					"url": "{{host}}/products/buy",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "speaker",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "quantity",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller1_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "a613c94b-89dd-4c2b-8f5c-0508290b9ada",
+								"exec": [
+									"pm.test(\"Forbidden\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "799a1f5a-953d-4117-828f-b88bc4001591",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Forbidden\", function () {\r\n    pm.response.to.have.status(403);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller1_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "fc56e568-5b68-48ad-8411-5214fca6416e",
+					"uid": "0-fc56e568-5b68-48ad-8411-5214fca6416e",
+					"name": "see product details",
+					"url": "{{host}}/products/show",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "d11d08fd-84e0-42e1-a5fe-8dab1f9a1d2a",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "fdc5a1f3-afb1-4d40-8ca9-be2abf71c037",
+					"uid": "0-fdc5a1f3-afb1-4d40-8ca9-be2abf71c037",
+					"name": "get seller2 account details with old token",
+					"url": "{{host}}/users/me",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4d3354c3-dd02-4c92-9b5b-69a05b8fd359",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "df3098b2-aa7d-4314-9a45-c7d5617442d4",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "fe80de46-5c40-4e93-8307-e52c82d0ce10",
+					"uid": "0-fe80de46-5c40-4e93-8307-e52c82d0ce10",
+					"name": "Update Product with  seller2",
+					"url": "{{host}}/products/update",
+					"description": null,
+					"data": [
+						{
+							"key": "productName",
+							"value": "USB Stick",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "cost",
+							"value": "50",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "amountAvailable",
+							"value": "15",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "bearer",
+						"bearer": [
+							{
+								"key": "token",
+								"value": "{{seller2_token}}"
+							}
+						]
+					},
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "a191787f-bc07-4d8b-a5d8-7153e9d1ac82",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "2c6566d7-9f1e-4e89-8670-642a54ec76e9",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": "bearerAuth",
+					"helperAttributes": {
+						"id": "bearer",
+						"token": "{{seller2_token}}"
+					},
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "ffa577ea-b2d3-4225-a07a-c8cc0a424cfa",
+					"uid": "0-ffa577ea-b2d3-4225-a07a-c8cc0a424cfa",
+					"name": "register buyer2",
+					"url": "{{host}}/register",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{buyer2_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{buyer2_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "role",
+							"value": "{{buyer2_r}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "baa12e06-afa9-4f9b-a5fa-909bd9b876cb",
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "pm.test(\"Successful POST request\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				},
+				{
+					"id": "ffd0a3c1-c7a5-4b54-81ef-c534e86da72f",
+					"uid": "0-ffd0a3c1-c7a5-4b54-81ef-c534e86da72f",
+					"name": "request seller1 access token",
+					"url": "{{host}}/users/token",
+					"description": null,
+					"data": [
+						{
+							"key": "username",
+							"value": "{{seller1_n}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "{{seller1_p}}",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataOptions": null,
+					"dataMode": "params",
+					"headerData": null,
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f8910a82-0975-498e-bb39-e20b8bec5ca7",
+								"exec": [
+									"var data = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"seller1_token\", data.token);\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"folder": "a11ce253-5589-4283-9bfb-165cce6c2617",
+					"responses_order": [],
+					"preRequestScript": null,
+					"tests": "var data = JSON.parse(responseBody);\r\npm.environment.set(\"seller1_token\", data.token);\r\n\r\npm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "672598b1-d7cf-4255-91d6-fcd19f8a3872",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "5f8cba88-0372-4a9f-8f44-6541e822d2d0",
+			"name": "test",
+			"values": [
+				{
+					"key": "host",
+					"value": "http://127.0.0.1:8000/vending_machine/api",
+					"enabled": true
+				},
+				{
+					"key": "buyer1_n",
+					"value": "buyer_1",
+					"enabled": true
+				},
+				{
+					"key": "buyer1_p",
+					"value": "buyer_1",
+					"enabled": true
+				},
+				{
+					"key": "buyer1_r",
+					"value": "B",
+					"enabled": true
+				},
+				{
+					"key": "buyer2_n",
+					"value": "buyer_2",
+					"enabled": true
+				},
+				{
+					"key": "buyer2_p",
+					"value": "buyer_2",
+					"enabled": true
+				},
+				{
+					"key": "buyer2_r",
+					"value": "B",
+					"enabled": true
+				},
+				{
+					"key": "seller1_n",
+					"value": "seller_1",
+					"enabled": true
+				},
+				{
+					"key": "seller1_p",
+					"value": "seller_1",
+					"enabled": true
+				},
+				{
+					"key": "seller1_r",
+					"value": "S",
+					"enabled": true
+				},
+				{
+					"key": "seller2_n",
+					"value": "seller_2",
+					"enabled": true
+				},
+				{
+					"key": "seller2_p",
+					"value": "seller_2",
+					"enabled": true
+				},
+				{
+					"key": "seller2_r",
+					"value": "S",
+					"enabled": true
+				},
+				{
+					"key": "invalidrole_n",
+					"value": "invalid_1",
+					"enabled": true
+				},
+				{
+					"key": "invalidrole_p",
+					"value": "invalid_1",
+					"enabled": true
+				},
+				{
+					"key": "invalidrole_r",
+					"value": "A",
+					"enabled": true
+				},
+				{
+					"key": "buyer3_n",
+					"value": "buyer_3",
+					"enabled": true
+				},
+				{
+					"key": "buyer3_p",
+					"value": "buyer_3",
+					"enabled": true
+				},
+				{
+					"key": "buyer3_r",
+					"value": "B",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "f8f0e343-1ed1-42ec-ba82-d309ccdce387",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
