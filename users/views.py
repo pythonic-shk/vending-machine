@@ -44,7 +44,7 @@ class UserView(ListAPIView):
     def get(self, request):
         try:
             user = get_user_model().objects.get(username=request.user)
-            status_code = status.HTTP_202_ACCEPTED
+            status_code = status.HTTP_200_OK
             if user.role == 'B':
                 dep = Deposit.objects.get(buyerId=user)
                 data = [{
@@ -97,10 +97,10 @@ class UserChangePwd(UpdateAPIView):
             if not self.object.check_password(serializer.data.get("old_password")):
                 response = {
                     'success': 'False',
-                    'code': status.HTTP_400_BAD_REQUEST,
+                    'code': status.HTTP_401_UNAUTHORIZED,
                     'message': 'Wrong Old Password',
                 }
-                return JsonResponse(response, status=status.HTTP_400_BAD_REQUEST)
+                return JsonResponse(response, status=status.HTTP_401_UNAUTHORIZED)
             elif serializer.data.get("new_password") == serializer.data.get("old_password"):
                 response = {
                     'success': 'False',
@@ -193,7 +193,7 @@ class UserDepositView(UpdateAPIView):
                 user = get_user_model().objects.get(username=request.user)
                 usr = user.username
                 amt = serializer.data.get("amount")
-                status_code = status.HTTP_202_ACCEPTED
+                status_code = status.HTTP_200_OK
                 dep = Deposit.objects.get(buyerId=user)
                 initial = getattr(dep, denom[amt])
                 setattr(dep, denom[amt], initial + 1)

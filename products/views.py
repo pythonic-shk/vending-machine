@@ -24,7 +24,7 @@ class ProductCreateView(CreateAPIView):
         try:
             serializer.is_valid(raise_exception=True)
             serializer.save(sellerId=request.user)
-            status_code = status.HTTP_201_CREATED
+            status_code = status.HTTP_200_OK
             response = {
                 'success': 'True',
                 'status code': status_code,
@@ -49,11 +49,11 @@ class ProductShowView(ListAPIView):
         try:
             response = {
                  'success': 'True',
-                 'code': status.HTTP_202_ACCEPTED,
+                 'code': status.HTTP_200_OK,
                  'message': 'Getting Products Successfully',
                  'data': list(Product.objects.all().values('productName', 'cost', 'amountAvailable', 'sellerId'))
              }
-            return JsonResponse(response, status=status.HTTP_202_ACCEPTED, safe=False)
+            return JsonResponse(response, status=status.HTTP_200_OK, safe=False)
         except (ValueError, TypeError, AttributeError) as msg:
             response = {
                 'success': 'False',
@@ -81,7 +81,7 @@ class ProductUpdateView(UpdateAPIView):
             prd.cost = serializer.data.get("cost")
             prd.amountAvailable = serializer.data.get("amountAvailable")
             prd.save()
-            status_code = status.HTTP_202_ACCEPTED
+            status_code = status.HTTP_200_OK
             response = {
                 'success': 'True',
                 'status code': status_code,
@@ -113,7 +113,7 @@ class ProductDeleteView(DestroyAPIView):
             self.check_object_permissions(self.request, prd)
             serializer = self.get_serializer(data=request.data)
             serializer.is_valid()
-            prd = Product.objects.filter(sellerId=request.user,
+            prd = Product.objects.get(sellerId=request.user,
                                          productName=serializer.data.get("productName"))
             prd_name = prd.productName
             prd.delete()
@@ -223,7 +223,7 @@ class ProductBuyView(UpdateAPIView):
                         fi_unit += 1
                     dep.fives -= fi_unit
                 dep.total = dep.fives*5 + dep.tens*10 + dep.twenties*20 + dep.fifties*50 + dep.hundreds*100
-                status_code = status.HTTP_202_ACCEPTED
+                status_code = status.HTTP_200_OK
                 deposit = {
                     'fives': dep.fives,
                     'tens': dep.tens,
