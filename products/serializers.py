@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from products.models import Product
-from django.contrib.auth import get_user_model
 
 
 class ProductCreateSerializer(serializers.ModelSerializer):
@@ -11,6 +10,13 @@ class ProductCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = ('productName', 'cost', 'amountAvailable')
+
+    def validate(self, data):
+        cost = data['cost']
+        quantity = data['amountAvailable']
+        if quantity < 1 or cost < 1:
+            raise serializers.ValidationError('Quantity/Cost should be at least 1', code=400)
+        return data
 
     def create(self, validated_data):
         prod = Product.objects.create(**validated_data)
@@ -34,12 +40,26 @@ class ProductUpdateSerializer(serializers.ModelSerializer):
         model = Product
         fields = ('productName', 'cost', 'amountAvailable')
 
+    def validate(self, data):
+        cost = data['cost']
+        quantity = data['amountAvailable']
+        if quantity < 1 or cost < 1:
+            raise serializers.ValidationError('Quantity/Cost should be at least 1', code=400)
+
+        return data
+
 
 class ProductBuySerializer(serializers.ModelSerializer):
-    productName = serializers.CharField(required=True)
     quantity = serializers.IntegerField(required=True)
-    sellerId = serializers.CharField(required=True)
 
     class Meta:
         model = Product
-        fields = ('productName', 'quantity', 'sellerId')
+        fields = ('quantity',)
+        read_only_fields = ('productName', 'sellerId')
+
+    def validate(self, data):
+        quantity = data['quantity']
+        if quantity < 1:
+            raise serializers.ValidationError('Quantity should be at least 1', code=400)
+
+        return data

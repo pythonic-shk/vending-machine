@@ -10,8 +10,7 @@ from .serializers import ProductCreateSerializer, ProductDeleteSerializer,\
     ProductUpdateSerializer, ProductBuySerializer
 from .models import Product
 from users.models import Deposit
-
-from users.models import Deposit
+import traceback
 
 
 class ProductCreateView(CreateAPIView):
@@ -23,6 +22,7 @@ class ProductCreateView(CreateAPIView):
         serializer = self.serializer_class(data=request.data)
         try:
             serializer.is_valid(raise_exception=True)
+            serializer.validate(serializer.validated_data)
             serializer.save(sellerId=request.user)
             status_code = status.HTTP_200_OK
             response = {
@@ -43,6 +43,7 @@ class ProductCreateView(CreateAPIView):
 
 
 class ProductShowView(ListAPIView):
+    authentication_classes = []
     permission_classes = (AllowAny,)
 
     def get(self, request):
@@ -70,13 +71,15 @@ class ProductUpdateView(UpdateAPIView):
 
     def update(self, request):
         try:
+            serializer = self.serializer_class(data=request.data)
             try:
-                prd = Product.objects.get(sellerId=request.user)
+                prd = Product.objects.get(sellerId=request.user,
+                                          productName=serializer.initial_data.get("productName"))
             except Product.DoesNotExist:
                 prd = None
             self.check_object_permissions(self.request, prd)
-            serializer = self.serializer_class(data=request.data)
-            serializer.is_valid()
+            serializer.is_valid(raise_exception=True)
+            serializer.validate(serializer.validated_data)
             prd.productName = serializer.data.get("productName")
             prd.cost = serializer.data.get("cost")
             prd.amountAvailable = serializer.data.get("amountAvailable")
@@ -106,12 +109,13 @@ class ProductDeleteView(DestroyAPIView):
 
     def delete(self, request):
         try:
+            serializer = self.get_serializer(data=request.data)
             try:
-                prd = Product.objects.get(sellerId=request.user)
+                prd = Product.objects.get(sellerId=request.user,
+                                          productName=serializer.initial_data.get("productName"))
             except Product.DoesNotExist:
                 prd = None
             self.check_object_permissions(self.request, prd)
-            serializer = self.get_serializer(data=request.data)
             serializer.is_valid()
             prd = Product.objects.get(sellerId=request.user,
                                          productName=serializer.data.get("productName"))
@@ -139,21 +143,22 @@ class ProductBuyView(UpdateAPIView):
 
     def update(self, request):
         try:
-            self.check_object_permissions(self.request, self.request.user)
             serializer = self.serializer_class(data=request.data)
-            serializer.is_valid()
+            self.check_object_permissions(self.request, self.request.user)
             dep = Deposit.objects.get(buyerId=request.user)
             try:
-                prd = Product.objects.get(sellerId=serializer.data.get("sellerId"),
-                                         productName=serializer.data.get("productName"))
+                prd = Product.objects.get(sellerId=serializer.initial_data.get("sellerId"),
+                                         productName=serializer.initial_data.get("productName"))
             except Product.DoesNotExist:
                 status_code = status.HTTP_400_BAD_REQUEST
                 response = {
                     'success': 'False',
                     'status code': status_code,
-                    'message': 'Requested Product is not available',
+                    'message': 'ProductName/sellerId combination is either not given or Invalid',
                 }
                 return JsonResponse(response, status=status_code)
+            serializer.is_valid(raise_exception=True)
+            serializer.validate(serializer.validated_data)
             if prd.amountAvailable < int(serializer.data.get("quantity")):
                 status_code = status.HTTP_400_BAD_REQUEST
                 response = {
@@ -244,10 +249,12 @@ class ProductBuyView(UpdateAPIView):
                     'data': data
                 }
                 prd.save()
+                print(dep.fives, dep.tens, dep.twenties, dep.fifties, dep.hundreds)
                 dep.save()
                 return JsonResponse(response, status=status_code)
         except (ValidationError, ValueError, TypeError, IntegrityError) as msg:
             status_code = status.HTTP_400_BAD_REQUEST
+            traceback.print_exc()
             response = {
                 'success': 'False',
                 'status code': status_code,

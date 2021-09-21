@@ -12,6 +12,7 @@ from django.contrib.auth import get_user_model
 
 
 class UserRegistrationView(CreateAPIView):
+    authentication_classes = []
     serializer_class = UserRegistrationSerializer
     permission_classes = (AllowAny,)
 
@@ -20,7 +21,7 @@ class UserRegistrationView(CreateAPIView):
         try:
             serializer.is_valid(raise_exception=True)
             serializer.save()
-            status_code = status.HTTP_201_CREATED
+            status_code = status.HTTP_200_OK
             response = {
                 'success': 'True',
                 'status code': status_code,
@@ -236,7 +237,7 @@ class UserDepResetView(UpdateAPIView):
         try:
             user = get_user_model().objects.get(username=request.user)
             usr = user.username
-            status_code = status.HTTP_202_ACCEPTED
+            status_code = status.HTTP_200_OK
             dep = Deposit.objects.get(buyerId=user)
             dep.tens = 0
             dep.fives = 0

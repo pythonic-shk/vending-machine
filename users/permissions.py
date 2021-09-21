@@ -12,9 +12,9 @@ class BuyerOnly(permissions.BasePermission):
             response = {
                 'success': 'False',
                 'message': 'User is Not a Buyer',
-                'status_code': status.HTTP_401_UNAUTHORIZED
+                'status_code': status.HTTP_403_FORBIDDEN
             }
-            raise PermissionDenied(detail=response, code=status.HTTP_401_UNAUTHORIZED)
+            raise PermissionDenied(detail=response, code=status.HTTP_403_FORBIDDEN)
 
 
 
